@@ -2444,7 +2444,26 @@ input, select, textarea {
 		font-weight: 550;
 	}
 
-	.resume-btn {
-		margin-left: 85px;
+	.resume-btn-div {
+		height: 60px;
+		margin-left: 130px;
 		margin-top: 20px;
+	}
+
+	.resume-btn {
+		background-image: url(images/bg.png), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		transition: background-color .2s ease-in-out;
+		overflow: hidden;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		background-color: #43B3E0;
+    	font-family: 'Montserrat', sans-serif;
+    	font-size: 20px;
+    	color: #fff;
+    	padding: 20px;
+    	border-radius: 10px;
+    	text-decoration: none;
+	}
+
+	.resume-btn:hover {
+		background-color: #49bfee;
 	}
