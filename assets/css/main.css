@@ -1872,7 +1872,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
-		height: 325px
+		height: 350px
 	}
 
 		.box.style1 {
@@ -2445,9 +2445,8 @@ input, select, textarea {
 	}
 
 	.resume-btn-div {
-		height: 60px;
-		margin-left: 130px;
-		margin-top: 20px;
+		text-align-last: center;
+		margin-top: 30px;
 	}
 
 	.resume-btn {
